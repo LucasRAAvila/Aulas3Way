@@ -1,0 +1,15 @@
+div{
+    border: 3px solid red;
+    background-color: blue;
+    color: white;
+    /*padding: top right botton left - também funciona em 1 linha */
+    /*padding: top right/left botton  - com 3 valores */
+    /*padding: top/botton right/left - com 2 valores */
+    /*padding: 1 valor para todos os lados */
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 30px;
+    text-align: justify;
+    margin: 50px;
+}

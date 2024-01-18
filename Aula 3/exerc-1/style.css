@@ -1,0 +1,167 @@
+/*exercício 1*/
+.external{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+
+/*exercício 2*/
+.impar{
+    background-color: rosybrown;
+    font-family: Verdana,  DejaVu Sans, sans-serif;
+}
+
+#segundo{
+    color: blue;
+    font-size: 36px;
+}
+
+.impar-2{
+    font-size: 24px;
+}
+#quarto{
+    background-color: green;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/*exercício 3*/
+.botao1, .botao2{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    border: 2px solid gray;
+}
+.botao1{
+    background-color: black;  
+    color: white;  
+    padding: 5px;
+}
+.botao2{
+    background-color: yellow;
+    color: black;
+    margin: 5px;
+}
+
+/*exercício 4*/
+.exerc4 .texto-injetado {
+    margin-bottom: -25px;
+    text-align: center;
+    }
+.exerc4 .caixa {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+}
+.exerc4 .caixa-amarela {
+    background-color: yellow;
+    padding: 15px;
+}
+.exerc4 .caixa-vermelha {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+}
+.exerc4 .caixa-azul {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+}
+
+/*exercício 5*/
+.exerc5 .texto-injetado {
+    margin-bottom: -25px;
+    text-align: center;
+    }
+.exerc5 .caixa {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    }
+.exerc5 .caixa-amarela {
+    background-color: yellow;
+    padding: 10px;
+    }
+.exerc5 .caixa-vermelha {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    }
+.exerc5 .caixa-azul {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    }
+    
+
+    /*exercício 6*/
+
+    body .exerc6 {
+        max-width: 600px;
+        margin: 0 auto;
+        }
+        .one {
+        background: pink;
+        border: 3px solid blue;
+        /* ALTERE-ME */
+        padding: 32px;
+        margin: 12px;
+        }
+        .two {
+        background: lightblue;
+        border: 3px solid purple;
+        /* ALTERE-ME */
+        margin-bottom: 6px;
+        padding: 2px;
+        }
+        .three {
+        background: peachpuff;
+        border: 3px solid brown;
+        width: 200px;
+        /* ALTERE-ME */
+        padding: 32px;
+        margin-left: 350px;
+        }
+
+
+/*exercício 7*/
+body .exerc7{
+    background: #eee;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 1px;
+}
+.title {
+    background: #e3f4ff;
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px;
+}
+.content {
+    background: #e3f4ff;
+    padding: 8px;
+    margin: 8px;
+}
+.button-container {
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
+button {
+    background: white;
+    border: 1px solid #eee;
+    padding: 8px;
+    margin: 2px;
+}

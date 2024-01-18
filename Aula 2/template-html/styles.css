@@ -1,0 +1,68 @@
+/*Comentario no CSS*/
+*{
+    color: blue;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; /*tamanho*/
+    font-weight: 600; /*negrito*/
+    text-align: center;/*posicionar texto */
+}
+/*para imagens*/
+img{
+    height: auto;/*recomenda deixar altura automatico*/
+    width: 550px;/*para largura*/
+}
+p{
+    color: red;
+}
+h1 {
+    background-color: aqua;
+}
+/*para classe*/
+.alerta-texto{
+    background-color: blue;
+}
+/*junta as classes*/
+.alerta-paragraf,
+.alerta{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 800px;
+}
+/*para id*/
+#id-texto{
+    color: blueviolet;
+}
+.alerta{
+    color: chartreuse;
+    font-size: 20px;
+    font-weight: 800px;
+}
+.alerta-paragraf{
+    color: aqua;
+}
+
+
+.subsection{
+
+}
+.header{
+
+}
+.preview{
+
+}
+/*para uma classe especifica*/
+.subsection.preview{
+
+}
+
+/*para uma Id especifico dentro de uma classe*/
+.subsection#idteste{
+
+}
+/*para especificar a classe de um filho*/
+.ancestor .contents{
+    background-color: goldenrod;
+}
