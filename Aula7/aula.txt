@@ -1,0 +1,83 @@
+//Declaração de variáveis
+//let nome;
+
+//Atribuição - colocar valor dentro da variável
+//nome = "Elisaudo";
+
+// Declaração + atribuição
+let nome = "Elisaudo";
+
+//Como escrever o nome de uma variável
+//pode começar o nome da variável com $ ou _, não começar com número;
+//não pode ter espaço entre as palavras;
+//pode ter letras, nummero, $ e _
+//Diferencia maiúsculo de minúsculo. CODIGO não é igual a codigo. Ela é case sensitive  {CODIGO = COdiGO = codigo = SÃO TODAS DIFERENTES}
+//Não utlizar palavras reservadas.
+//** Sempre colocar nome dentro do contexto. xyz, leiteEntrada, pecasRecuperadas
+//** camelCase - primeira palavra começa com letra minúscula, as demais palavras começam com letras maíscula. leiteEntrda, sangueTestadoHoje
+//**PascalCase - componentes no React e em classes.
+
+/*let resultadoSoma;
+let resultadoDivisao;
+let resultadoSubtracao;
+let resultadoMultiplicacao;
+let num1 = Number(prompt('Digite o primeiro numero:'));
+let num2 = Number(prompt('Digite o segundo numero:'));
+let testeImparPar = 2;
+let resultadoImparParNum1;
+let resultadoImparParNum2;
+
+resultadoSoma = num1 + num2;
+resultadoDivisao = num1 / num2;
+resultadoSubtracao = num1 - num2;
+resultadoMultiplicacao = num1 * num2;
+resultadoImparParNum1 = num1 % testeImparPar;
+resultadoImparParNum2 = num2 % testeImparPar;
+
+console.log(`As operações matemáticas dos números ${num1} e ${num2} são:`);
+console.log(`O resultado da Soma é: ${resultadoSoma}`);
+console.log(`O resultado da Divisão  é: ${resultadoDivisao}`);
+console.log(`O resultado da Subtração  é: ${resultadoSubtracao}`);
+console.log(`O resultado da Multiplicação é: ${resultadoMultiplicacao}`);
+
+console.log('O primeiro número é: ');
+if (resultadoImparParNum1 > 0) {
+  ('impar');
+}
+console.log(`O segundo número é: num1 % testeImparPar`);
+*/
+
+//Exercicio 3
+/*
+let valorCusto = Number(prompt('Digite o Valor do Produto:'));
+let acrescimoPorcentagem = Number(prompt('Digite o Percentual de aumeneto:'));
+let acrescimoValor;
+let resultado;
+
+acrescimoValor = valorCusto * (acrescimoPorcentagem / 100);
+resultado = valorCusto + acrescimoValor;
+
+console.log(`O valor final do prodto é: R$ ${resultado}`);
+*/
+
+//Exercicio 4
+/*
+let valorCompra = Number(prompt('Informe o valor da compra:'));
+let valorParcela;
+let parcelamento = 5;
+
+valorParcela = valorCompra / parcelamento;
+
+console.log(`O valor das parcelas é ${parcelamento} de R$ ${valorParcela}`);
+*/
+// Exercício 5
+let num1 = 7;
+let num2 = 7;
+
+console.log(`variação dos  numeros`);
+console.log(`${num1} > ${num2} ${num1 > num2}`);
+console.log(`${num1} < ${num2} ${num1 < num2}`);
+console.log(`${num1} <= ${num2} ${num1 <= num2}`);
+console.log(`${num1} >= ${num2} ${num1 >= num2}`);
+console.log(`${num1} === ${num2} ${num1 === num2}`);
+console.log(`${num1} !== ${num2} ${num1 !== num2}`);
